@@ -1,0 +1,116 @@
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+  background: #0f0f1a;
+  color: white;
+  text-align: center;
+}
+
+header {
+  padding: 20px;
+}
+
+.subtitle {
+  color: #00e5ff;
+}
+
+.photo {
+  width: 120px;
+  border-radius: 50%;
+  box-shadow: 0 0 20px #00e5ff;
+}
+
+.menu {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  background: #1a1a2e;
+  padding: 10px;
+}
+
+.menu li {
+  margin: 0 15px;
+}
+
+.menu a {
+  color: #00e5ff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.qrcode {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  width: 100px;
+}
+
+section, aside {
+  background: #1a1a2e;
+  margin: 30px;
+  padding: 20px;
+  border-radius: 15px;
+  box-shadow: 0 0 15px black;
+}
+
+.game-img {
+  width: 260px;
+  border-radius: 12px;
+}
+
+table {
+  margin: auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid white;
+  padding: 10px;
+}
+
+/* SKILL BARS */
+.skill {
+  margin: 15px;
+}
+
+.bar {
+  background: #333;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.level {
+  height: 15px;
+  background: linear-gradient(90deg, #6a00ff, #00e5ff);
+}
+
+.fifa { width: 70%; }
+.gta { width: 80%; }
+.minecraft { width: 65%; }
+.cod { width: 90%; }
+
+.btn, .btn-top {
+  display: inline-block;
+  background: #6a00ff;
+  color: white;
+  padding: 10px 15px;
+  border-radius: 10px;
+  text-decoration: none;
+  box-shadow: 0 0 10px #6a00ff;
+}
+
+.btn-top {
+  position: fixed;
+  left: 20px;
+  bottom: 20px;
+}
+
+footer {
+  background: black;
+  padding: 20px;
+}
+
+.copyright {
+  color: #00e5ff;
+  font-weight: bold;
+}
